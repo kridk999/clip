@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "womens_clothing"
 version = "0.0.1"
 description = "A description of the project"
-keywords = ["Magasin", "FashionCLIP", "category_prediction]
+keywords = ["Magasin", "FashionCLIP", "category_prediction"]
 
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -24,7 +24,6 @@ dev = {file = ['requirements_dev.txt']}
 
 [tool.ruff]
 line-length = 120
-lint.select = ["I"]
 
 [tool.ruff.lint]
 select = ["I", "N", "E", "W", ]
